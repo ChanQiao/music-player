@@ -1,0 +1,16 @@
+{
+  "name": "Spider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "chromedriver": "^77.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}

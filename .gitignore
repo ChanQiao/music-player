@@ -1,0 +1,4 @@
+
+client/.idea/electronPlayer.iml
+*.xml
+client/node_modules/.bin/electron

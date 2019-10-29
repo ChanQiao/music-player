@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script>
+</head>
+
+<body>
+  <div class="table">
+  <div class="table-cell">
+    <div id="player">
+    <div id="main">
+      <div>
+        <div class="playback_controls">
+          <h2 id="title">Title</h2>
+          <h3 id="author">Perigee</h3>
+          <div>
+            <div class="current">00:00</div>
+            <div class="end">00:00</div>
+            <div class="time-holder">
+            <div class="slider">
+              <div class="fill"></div>
+              <div class="slider-back"></div>
+            </div>
+          </div>
+          </div>
+
+          <div>
+          <i class="fa fa-bars menu"></i>
+          <div class="buttons">
+            <i class="fa fa-backward" id="back"></i>
+            <i class="fa fa-play loading" id="playpause" data-status="true"></i>
+            <i class="fa fa-forward" id="next"></i>
+          </div>
+        </div>
+        </div>
+        <audio id="playbar" controls></audio>
+      </div>
+    </div>
+    <ol id="playlist">
+
+    </ol>
+  </div>
+  </div>
+</div>
+  <script src="../models/player.js"></script>
+
+</body>
+</html>

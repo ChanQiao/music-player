@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "electron": "^6.0.7"
+    "electron": "^9.4.0"
   },
   "main": "main.js",
   "scripts": {
